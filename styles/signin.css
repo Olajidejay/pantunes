@@ -1,12 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap");
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
+@import url("base.css");
 body {
   display: flex;
   flex-direction: column;
-  font-family: "space Grotesk", sans-serif;
   background-color: #0a0a0a;
   height: 100vh;
 }
@@ -86,6 +81,10 @@ input[type="submit"] {
 .forgot-para a {
   text-decoration: none;
   color: #ff8a2e;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 .create-link {
